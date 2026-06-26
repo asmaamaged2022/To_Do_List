@@ -1,0 +1,37 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+  .box {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #6d3065;
+    padding: 10px 20px;
+    border-radius: 20px;
+    .body {
+      form {
+        textarea {
+          resize: none;
+          height: 150px;
+        }
+        button {
+          background-color: #5c0950;
+          color: #ffe6fb;
+          transition-duration: 0.2s;
+          width: 200px;
+          padding: 10px 20px;
+          border: 1px solid #ffe6fb;
+          margin: auto;
+          &:hover {
+            background-color: #951a85;
+          }
+        }
+      }
+    }
+  }
+}

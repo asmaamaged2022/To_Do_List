@@ -1,0 +1,19 @@
+<div class="tasks mb-3">
+  <div class="head d-flex justify-content-between">
+    <h4>{{ currentUser().name }}’s Tasks!</h4>
+    <button class="btn" (click)="showPopup()">Add Task</button>
+  </div>
+  <div class="body">
+    <!-- @for (task of tasks(); track task.id) {
+      <app-task></app-task>
+    } -->
+    @for (task of getTasks; track task.id) {
+      <app-task [task]="task"></app-task>
+    } @empty {
+      <p class="fs-2 mt-5">No tasks found.</p>
+    }
+  </div>
+</div>
+@if (Popup) {
+  <app-new-task (cancel)="showPopup()" [userId]="currentUser().id"></app-new-task>
+}

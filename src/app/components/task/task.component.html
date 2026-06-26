@@ -1,0 +1,6 @@
+<div class="task mt-3">
+  <h4>{{ task().title }}</h4>
+  <h5 class="mb-3">{{ task().date }}</h5>
+  <p>{{ task().summary }}</p>
+  <button class="btn d-block ms-auto" (click)="complete(task()?.id)">Complete</button>
+</div>

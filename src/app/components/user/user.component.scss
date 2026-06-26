@@ -1,0 +1,17 @@
+
+.user{
+  background-color: #6d3065;
+ border-radius: 20px;
+ padding: 5px 20px;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+ transition-duration: .3s;
+ cursor: pointer;
+img{
+  width: 50px;
+  border-radius: 50%;
+}
+&:hover,
+&.active{
+  background-color: #e36bd3;
+}
+}

@@ -1,0 +1,16 @@
+.tasks {
+  background-color: #6d3065;
+  border-radius: 20px;
+  padding: 10px 20px;
+
+  .head {
+    button {
+      background-color: #641858;
+      color: #ffe6fb;
+      transition-duration: 0.2s;
+      &:hover {
+        background-color: #951a85;
+      }
+    }
+  }
+}
