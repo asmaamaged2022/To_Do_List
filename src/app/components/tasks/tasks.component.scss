@@ -1,15 +1,16 @@
 .tasks {
-  background-color: #6d3065;
+  background-color: #CA5995;
   border-radius: 20px;
   padding: 10px 20px;
 
   .head {
     button {
-      background-color: #641858;
+      background-color: #b5397b;
       color: #ffe6fb;
       transition-duration: 0.2s;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
       &:hover {
-        background-color: #951a85;
+        background-color: rgb(107, 7, 94);
       }
     }
   }

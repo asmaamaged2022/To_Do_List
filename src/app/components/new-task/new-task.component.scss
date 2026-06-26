@@ -10,7 +10,7 @@
   .box {
     width: 500px;
     margin: 50px auto;
-    background-color: #6d3065;
+    background-color: #ca5995;
     padding: 10px 20px;
     border-radius: 20px;
     .body {
@@ -20,7 +20,7 @@
           height: 150px;
         }
         button {
-          background-color: #5c0950;
+          background-color: #b5397b;
           color: #ffe6fb;
           transition-duration: 0.2s;
           width: 200px;
@@ -28,7 +28,7 @@
           border: 1px solid #ffe6fb;
           margin: auto;
           &:hover {
-            background-color: #951a85;
+            background-color: rgb(107, 7, 94);
           }
         }
       }
